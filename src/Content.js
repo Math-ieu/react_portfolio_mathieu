@@ -58,14 +58,14 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Web Developer | Data Scientist",
     firstName: "JOHN",
     LastName: "ALEX",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "3+",
         text: "Years of Experinse in Web development",
       },
       {
@@ -79,7 +79,7 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
+        name: "Adobe xd",
         para: "Lorem ipsum text  dummy",
         logo: figma,
       },
@@ -99,7 +99,7 @@ export const content = {
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "Django",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
       },
@@ -107,6 +107,21 @@ export const content = {
         name: "Python",
         para: "Lorem ipsum text  dummy",
         logo: python,
+      },
+      {
+        name: "Flutter",
+        para: "Lorem ipsum text  dummy",
+        logo: sketch,
+      },
+      {
+        name: "Laravel",
+        para: "Lorem ipsum text  dummy",
+        logo: sketch,
+      },
+      {
+        name: "Matlab",
+        para: "Lorem ipsum text  dummy",
+        logo: sketch,
       },
     ],
     icon: MdArrowForward,
@@ -117,17 +132,17 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "mobile Development",
+        para: "",
         logo: services_logo2,
       },
       {
         title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "",
         logo: services_logo3,
       },
     ],
@@ -142,11 +157,11 @@ export const content = {
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Intership management application",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Portfolio",
         image: project3,
       },
     ],
@@ -194,23 +209,23 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "mathieuakakpodjakpata@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:mathieuakakpodjakpata@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+212 774-467662",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/+212774467662",
       },
       {
-        text: "codeaprogram",
+        text: "math_ieu228",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/math_ieu228?igsh=MmFqdzh1bDV6emgw",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © CopyRight Reserved 2024",
   },
 };
