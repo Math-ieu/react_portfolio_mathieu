@@ -1,12 +1,13 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
-
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import adobexd from "./assets/images/Skills/adobe-xd.png";
+import laravel from "./assets/images/Skills/laravel.png";
+import matlab from "./assets/images/Skills/matlab.png";
+import flutter from "./assets/images/Skills/flutter.png";
+import django from "./assets/images/Skills/django.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -22,8 +23,7 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -59,8 +59,8 @@ export const content = {
   ],
   hero: {
     title: "Web Developer | Data Scientist",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    firstName: "MATHIEU",
+    LastName: "DJAKPATA",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
@@ -80,48 +80,43 @@ export const content = {
     skills_content: [
       {
         name: "Adobe xd",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        para: "Tool for wireframes creation",
+        logo: adobexd,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "JavaSript Framework for back-end development",
         logo: nodejs,
       },
       {
         name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        para: "Tool for images editing",
         logo: ps,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "JavaScript Framework for Front-end development",
         logo: reactjs,
       },
       {
         name: "Django",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
-      },
-      {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        para: "Python framework for web development",
+        logo: django,
       },
       {
         name: "Flutter",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        para: "Dart framework for mobile development",
+        logo: flutter,
       },
       {
         name: "Laravel",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        para: "PHP web framework",
+        logo: laravel,
       },
       {
         name: "Matlab",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        para: "High-level programming language",
+        logo: matlab,
       },
     ],
     icon: MdArrowForward,
@@ -136,12 +131,12 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "mobile Development",
+        title: "Mobile Development",
         para: "",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "Logo making",
         para: "",
         logo: services_logo3,
       },
@@ -199,8 +194,8 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
+    image1: Hero_person,
+    image2: Hero_person,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
